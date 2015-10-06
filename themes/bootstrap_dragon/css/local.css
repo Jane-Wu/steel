@@ -1,0 +1,266 @@
+/* Custom CSS overrides */
+
+/*******************************
+ *       Header               **
+ ******************************/
+#page {
+  padding-top: 70px;
+  position: relative;
+}
+
+#header {
+  display: none;
+  text-align: start;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#header-top .block {
+  clear: none;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+#site-name.navbar-brand {
+  font-weight: 700;
+  margin-left: 0;
+}
+
+.form-item-lang-dropdown-select {
+  margin: 0;
+  padding: 10px 0;
+}
+
+div#header-top #block-search-form{
+  float: none;
+}
+
+#search-area>div{
+  padding-left: 6px;
+}
+
+#header-top div ul.menu li a {
+  padding: 19px 32px;
+}
+
+#header-top #search-block-form .form-item-search-block-form input.form-text{
+  min-height: 0px;
+  height: 33px;
+  width: 163px;
+  padding: 0px 0px 0px 5px;
+  margin: 15px 0px 0px 0px;
+  background-color: #e2e2e4;
+  color: #444;
+}
+
+#header-top #search-block-form div.form-actions{    
+  top: 5px;
+}
+
+#main-navigation{
+  background-color: #db1a3a;
+  border: none;
+}
+
+#header-top{
+  top: auto;
+}
+
+.dragon-logo{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  margin-left: 15px;
+  height: 60px;
+  line-height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #444;
+}
+
+/*******************************
+ *      Mega Menu             **
+ ******************************/
+.nav-collapse.collapse.always-show {
+  display: block;
+}
+
+.tb-megamenu .nav > li > a {
+  border-right: none;
+  color: #999;
+}
+
+.tb-megamenu {
+  background-color: transparent;
+}
+
+.tb-megamenu .btn-navbar.tb-megamenu-button {
+  color: #000;
+}
+
+
+@media (max-width: 960px) {
+  #dragon-navbar-collapse .container {
+    width: auto;
+  }
+  .nav {
+  padding-left: 15px;
+  }
+  .navbar-nav {
+    float: left;
+    margin: 0;
+  }
+  .navbar-nav.navbar-nav-right {
+    float: right!important;
+  }
+  .block.block-tb-megamenu {
+    min-width: 200px;
+  }
+  #dragon-navbar-collapse {
+    position: absolute;
+    right: 0;
+    top: 0;
+    min-width: 50%;
+  }
+}
+
+/*******************************
+ *      Footer Menu           **
+ ******************************/
+footer#subfooter{
+  border: none;
+  padding: 0px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  background-color: #1A2732;
+}
+
+#mini-panel-dragon_footer {
+  width: 970px;
+  margin: 0px auto;
+  text-align: left;
+}
+
+#mini-panel-dragon_footer .pane-title{
+  display: block;
+  color: #8AB8CB;
+  font-size: 2rem;
+  font-weight: normal;
+  padding: 20px 0px 12px;
+  margin: 0px;
+}
+
+#mini-panel-dragon_footer .pane-content p,
+#mini-panel-dragon_footer div.dragon-footer-links{
+  color: #FFF;
+  opacity: 0.9;
+}
+
+#mini-panel-dragon_footer .pane-content a{
+  color: #FFF;
+}
+
+#mini-panel-dragon_footer .pane-content span.glyphicon {
+  margin-right: 10px;
+}
+
+#mini-panel-dragon_footer .pane-content ul br{
+  display: none;
+}
+
+#mini-panel-dragon_footer .dragon-footer-links{
+  width: 86%;
+  text-align: right;
+}
+
+#mini-panel-dragon_footer .item-list ul li{
+  list-style: none;
+  margin-left: -10px;
+  border: none;
+  padding: 0px;
+}
+
+#mini-panel-dragon_footer a{
+  text-decoration: none;
+}
+
+#mini-panel-dragon_footer a.dragon-footer-icon{
+  width: 40px;
+  height: 40px;
+  font-size: 2.4rem;
+  line-height: 40px;
+  margin-top: 8px;
+  margin-right: 5px;
+  display: inline-block;
+  color: #1A2732;
+  text-align: center;
+  background: none repeat scroll 0% 0% #FFF;
+  border-radius: 20px;
+}
+
+/*******************************
+ *      Panels                **
+ ******************************/
+.dragon-mini-panel-block h2{
+  text-align: center;
+}
+.dragon-mini-panel-block:not(.dragon-mini-panel-full) .content{
+  width: 1170px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.dragon-mini-panel-block .panel-pane.dragon-mini-panel-pane-width{
+  width: 1170px;
+  margin: auto;
+}
+.dragon-mini-panel-block .dragon-mini-panel-pane-image-text{
+  margin: 15px;
+}
+.dragon-mini-panel-block.dragon-text-align-center{
+  text-align: center;
+}
+.dragon-mini-panel-block.dragon-text-bold{
+  font-weight: bold;
+}
+.dragon-mini-panel-block .panel-pane{
+  padding: 15px;
+}
+.dragon-mini-panel-block .panel-pane h2{
+  font-size: 16px;
+}
+.dragon-mini-panel-block.dragon-panel-page-header .pane-title{
+  position: absolute;
+  left: 500px;
+  font-size: 30px;
+  margin-top: 300px;
+  color: white;
+  width: 700px;
+}
+.dragon-color-grey{
+  background-color: #F2F2F2;
+}
+.dragon-color-dark{
+  background-color: #222;
+  color: #FFF;
+}
+.dragon-color-dark-grey{
+  background-color: #E3E2E2;
+}
+.dragon-color-red{
+  background-color: rgb(204, 24, 48);
+  color: #FFF;
+}
+.dragon-color-dark-red{
+  background-color: rgb(171, 25, 36);
+  color: #FFF;
+}
+
+.dragon-mini-panel-block.dragon-width-slim .content{
+  width: 770px;
+}
