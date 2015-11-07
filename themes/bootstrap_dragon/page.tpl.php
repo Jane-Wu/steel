@@ -48,16 +48,17 @@
 <div id="header-top" class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <a class="navbar-brand dragon-logo" href="<?php print $front_page; ?>">
-        <img alt="Brand"  width="40" height="40" src="<?php print $logo; ?>">
-      </a>
-      <a  class="navbar-brand"  id="site-name" href="<?php print $front_page; ?>"><?php print t($site_name); ?> </a>
-    </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div id="dragon-navbar-collapse">
       <div class="container">
-        <?php if ($page['header_top_left']) :?>
+<div class="navbar-header">
+      <a class="navbar-brand dragon-logo" href="<?php print $front_page; ?>">
+        <img alt="Brand"  width="200" height="40" src="<?php print $logo; ?>">
+      </a>
+      <a  class="navbar-brand"  id="site-name" href="<?php print $front_page; ?>"><?php print t($site_name); ?> </a>
+    </div>
+        
+<?php if ($page['header_top_left']) :?>
         <div class="nav navbar-nav">
           <!-- #header-top-left -->
           <div id="header-top-left" class="clearfix">

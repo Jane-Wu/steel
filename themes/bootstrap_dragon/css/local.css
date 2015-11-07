@@ -4,7 +4,7 @@
  *       Header               **
  ******************************/
 #page {
-  padding-top: 70px;
+  padding-top: 60px;
   position: relative;
 }
 
@@ -263,4 +263,27 @@ footer#subfooter{
 
 .dragon-mini-panel-block.dragon-width-slim .content{
   width: 770px;
+}
+
+h1.page-title{
+  display: none;
+}
+#main-content {
+  padding: 0px;
+}
+
+#header-top .container-fluid{
+  background-color: rgb(0, 57, 137);
+}
+
+.region.region-footer .block div{
+  color: white;
+}
+
+#header-top ul.menu li a{
+  color: white;
+}
+
+#header-top ul.menu li a.active {
+  color: wheat;
 }
