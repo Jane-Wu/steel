@@ -4,7 +4,6 @@
  *       Header               **
  ******************************/
 #page {
-  padding-top: 60px;
   position: relative;
 }
 
@@ -42,10 +41,6 @@ div#header-top #block-search-form{
   padding-left: 6px;
 }
 
-#header-top div ul.menu li a {
-  padding: 19px 21px;
-}
-
 #header-top #search-block-form .form-item-search-block-form input.form-text{
   min-height: 0px;
   height: 33px;
@@ -81,6 +76,10 @@ div#header-top #block-search-form{
   padding-top: 10px;
   padding-bottom: 10px;
   color: #444;
+}
+
+#main{
+padding: 0 0 0 0;
 }
 
 /*******************************
@@ -206,11 +205,10 @@ footer#subfooter{
 /*******************************
  *      Panels                **
  ******************************/
-.block-panels-mini h2{
+.dragon-mini-panel-block h2{
   text-align: center;
 }
-.block-panels-mini:not(.dragon-mini-panel-full) .content,
-#block-block-3 .content{
+.dragon-mini-panel-block:not(.dragon-mini-panel-full) .content{
   width: 1170px;
   margin: auto;
   margin-top: 15px;
@@ -265,131 +263,3 @@ footer#subfooter{
 .dragon-mini-panel-block.dragon-width-slim .content{
   width: 770px;
 }
-
-h1.page-title{
-  display: none;
-}
-#main-content {
-  padding: 0px;
-}
-
-#header-top .container-fluid{
-  background-color: #324A8C;
-}
-
-.region.region-footer .block div{
-  color: white;
-}
-
-#header-top ul.menu li a{
-  color: white;
-}
-
-#header-top ul.menu li a.active {
-  color: wheat;
-}
-
-#block-lang-dropdown-language{
-  margin-top: 10px;
-}
-
-#block-lang-dropdown-language select{
-  min-height: 30px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.content .panel-separator{
-  display:none;
-}
-
-#home-info{
-  background-color: #F2F2F2;
-}
-
-#block-block-3, #block-imageblock-1 {
-background-color: rgb(0,0);
-    padding: 0px 0px 0px 0px;
-text-align: center;
-color: rgb(233,84,18);
-}
-
-#block-panels-mini-products-berief{
-background-color: rgb(244,244,244);
-}
-/*
-#mini-panel-products_berief .panel-col-last{
-height: 332px;
-    background-color: lightgoldenrodyellow;
-}*/
-#page h2{
-font-weight: normal;
-}
-
-#block-panels-mini-company-culture, .panel-pane.pane-panels-mini.pane-company-culture{
-    background-color: rgb(50,82,167);
-color:white;
-text-align: center;
-}
-
-#block-panels-mini-company-culture .panels-flexible-region{
-background-color: rgba(255,255,255,0.1);
-border-right: 5px solid rgb(50,82,167);
-}
-
-#block-panels-mini-company-culture .panels-flexible-region h2{
-color:orange;
-}
-
-.pane-content table{
-border: none;
-font-size: 20px;
-width: 700px;
-}
-
-.pane-content thead{
-display:none;
-}
-
-.field img{
-
-width:300px;
-height:200px;
-padding-bottom:10px;
-}
-
-.field table{
-border-bottom: 1px solid #dfdfdf;
-}
-
-#header-top ul.menu li a {
-font-size: 17px;
-}
-
-#mini-panel-important_news article{
-background-color: rgba(0,0,0,0);
-border: none;
-}
-
-#mini-panel-important_news article header,#mini-panel-important_news article h2{
-display:none;
-}
-
-#mini-panel-important_news article .field{
-    width: 27%;
-}
-
-#mini-panel-important_news .pane-title, #block-panels-mini-company-culture .pane-title{
-font-size:23px;
-}
-
-#dragon-blocks .block>h2{
-padding-top: 40px;
-    padding-bottom: 20px;
-}
-
-#mini-panel-clone_of_company_info .panel-col .inside{
-padding-left: 10px;
-    padding-right: 10px;
-}
-
