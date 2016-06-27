@@ -47,12 +47,13 @@
 <!-- #header-top -->
 <div id="header-top" class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
-  <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <!-- Collect the nav links, forms, and other content for toggling -->
+    <div id="dragon-navbar-collapse">
+      <div class="container">
 <div class="navbar-header">
       <a class="navbar-brand dragon-logo" href="<?php print $front_page; ?>">
-        <img alt="Brand"  width="160" height="40" src="<?php print $logo; ?>">
+        <img alt="Brand"  width="200" height="40" src="<?php print $logo; ?>">
       </a>
       <a  class="navbar-brand"  id="site-name" href="<?php print $front_page; ?>"><?php print t($site_name); ?> </a>
     </div>
@@ -66,7 +67,6 @@
           <!-- EOF:#header-top-left -->
         </div>
         <?php endif; ?>
-    <div id="dragon-navbar-collapse">
         <?php if ($page['header_top_right']) :?>
         <div class="nav navbar-nav navbar-right">
             <!-- #header-top-right -->
@@ -76,9 +76,9 @@
             <!-- EOF:#header-top-right -->
         </div>
         <?php endif; ?>
+      </div>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
-  </div><!-- /.container -->
 </div>
 
 <!-- EOF: #header-top -->
@@ -92,7 +92,9 @@
         <!-- #banner-inside -->
         <div id="banner-inside" class="clearfix">
             <div class="row">
+                <div class="col-md-12">
                 <?php print render($page['banner']); ?>
+                </div>
             </div>
         </div>
         <!-- EOF: #banner-inside -->

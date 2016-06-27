@@ -43,7 +43,7 @@ div#header-top #block-search-form{
 }
 
 #header-top div ul.menu li a {
-  padding: 19px 21px;
+  padding: 17px 21px 17.5px;
 }
 
 #header-top #search-block-form .form-item-search-block-form input.form-text{
@@ -101,6 +101,7 @@ div#header-top #block-search-form{
 
 .tb-megamenu .btn-navbar.tb-megamenu-button {
   color: #000;
+  float: right;
 }
 
 
@@ -208,16 +209,17 @@ footer#subfooter{
  ******************************/
 .block-panels-mini h2{
   text-align: center;
+font-weight:500;
 }
 .block-panels-mini:not(.dragon-mini-panel-full) .content,
 #block-block-3 .content{
-  width: 1170px;
+  width: 80%;
   margin: auto;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 .dragon-mini-panel-block .panel-pane.dragon-mini-panel-pane-width{
-  width: 1170px;
+  width: 80%;
   margin: auto;
 }
 .dragon-mini-panel-block .dragon-mini-panel-pane-image-text{
@@ -274,7 +276,11 @@ h1.page-title{
 }
 
 #header-top .container-fluid{
-  background-color: #324A8C;
+  background-color: #000F38;
+}
+
+#header-top .navbar-header{
+  background-color: #FFF;
 }
 
 .region.region-footer .block div{
@@ -314,6 +320,10 @@ text-align: center;
 color: rgb(233,84,18);
 }
 
+#block-imageblock-1 .imageblock-image {
+  width: 100%;
+}
+
 #block-panels-mini-products-berief{
 background-color: rgb(244,244,244);
 }
@@ -347,6 +357,29 @@ font-size: 20px;
 width: 700px;
 }
 
+.view-products table.views-view-grid,
+.view-products-brief table.views-view-grid {
+  width: 100%;
+  text-align: center;
+}
+
+#mini-panel-partners .pane-custom img,
+.view-products table.views-view-grid .views-field-field-pictures img,
+.view-products-brief table.views-view-grid .views-field-field-pictures img {
+  margin: auto;
+/*  max-width:none;*/
+}
+
+.view-products table.views-view-grid .views-field,
+.view-products-brief table.views-view-grid .views-field{
+  margin: 20px 0;
+}
+
+.view-products-brief table.views-view-grid tr,
+.view-products table.views-view-grid tr{
+  border-bottom: none;
+}
+
 .pane-content thead{
 display:none;
 }
@@ -375,10 +408,6 @@ border: none;
 display:none;
 }
 
-#mini-panel-important_news article .field{
-    width: 27%;
-}
-
 #mini-panel-important_news .pane-title, #block-panels-mini-company-culture .pane-title{
 font-size:23px;
 }
@@ -393,3 +422,96 @@ padding-left: 10px;
     padding-right: 10px;
 }
 
+#banner .container{
+width:100%;
+}
+
+#banner .container #banner-inside{
+ margin-bottom: 0px;}
+
+#header-top{
+border-bottom: none;}
+
+.content table tr{
+border-bottom: 1px solid #dfdfdf;}
+
+#block-imageblock-10 img{
+width:100%;
+}
+
+.view-id-news table{
+width:100%;
+}
+
+#block-panels-mini-company-culture .pane-content p,
+#block-system-main .pane-company-culture .pane-content p {
+  height: 40px;
+}
+
+#block-system-main .pane-company-culture .pane-title{
+  height: 80px;
+}
+
+div.field-name-field-pictures .field-item{
+display: inline-block;
+margin-right: 10px;
+}
+
+#block-tb-megamenu-main-menu {
+  line-height: 30px;
+}
+#block-lang-dropdown-language {
+  height: 50px;
+}
+
+#block-panels-mini-important-news article .content{
+padding:0px 0px 0px 0px;
+}
+
+.tb-megamenu .nav-collapse .nav > li.active > a:hover,
+.tb-megamenu .nav-collapse .nav > li.active > a:focus {
+    background-color: #fff;
+    color: #4484c7;
+}
+
+.tb-megamenu .nav-collapse .nav > li > a:hover,
+.tb-megamenu .nav-collapse .nav > li > a:focus {
+    color: #4484c7;
+}
+.tb-megamenu .nav > .active > a,
+.tb-megamenu .nav > .active > a:hover,
+.tb-megamenu .nav > .active > a:focus {
+    background-color: #4484c7;
+    color: #fff;
+}
+
+.view-products table{
+table-layout: fixed;
+}
+
+@media (max-width: 767px){
+.content .panel-2col .panel-panel,
+.panels-flexible-four_column-inside>div,
+.panel-3col-33-stacked .panel-panel,
+.panel-display .panel-panel{
+    width: 100%;
+    padding: 0 1em 0 1em;
+}
+
+div.panel-panel div.panel-pane div.pane-content div.inside,
+.content .panel-display .panel-panel .inside{
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+}
+.view-products .views-field-title,
+.view-products-brief .views-field-title{
+margin: 20px 0;
+font-size: 20px;
+text-align: center;
+min-height: 50px;
+}
+
+.view-products-brief img{
+margin:auto;
+}
